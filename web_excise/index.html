@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>首页</title>
+	<link rel="stylesheet" type="text/css" href="css/global.css" >
+	<style type="text/css">
+		html,body{width: 100%; height: 100%;}
+		body{background-color: #f5f5f5;}
+		#tb{width: 1024px; height: 100%; margin: 0 auto; padding: 0; background-color: #fff;}
+		#tdHead,#tdFoot{height: 48px;}
+		#tdHead{border-bottom: 1px #e8e8e8 solid;}
+		.logo{float: left;}
+		.logo img{width: 42px; height: 42px; margin-top: 4px; margin-left: 16px; vertical-align: middle;}
+		.logo span{font-size: 15px; margin-left: 10px;}
+		.contact{float: right;}
+		.contact li{float: right; list-style-type: none; width: 50px; padding-right: 15px; line-height: 48px;}
+		.contact a:link,.contact a:visited{text-decoration: none; color: #888;}
+		.contact a:hover,.contact a:active{text-decoration: none; color: #444;}
+		.td_body{width: 1024px; display: inline-block;}
+		#myFocus{width: 560px; height: 300px; margin: 0 auto;}
+		#tdFoot{border-top: 1px #e8e8e8 solid;}
+		.txt {display: none;}
+		.txt p{color: #aaa; line-height: 30px; padding-left: 30px;}
+		.copyright{line-height: 48px; text-align: center;}
+	</style>
+	<script type="text/javascript" src="js/myfocus-2.0.1.min.js"></script>
+	<script type="text/javascript">
+		myFocus.set({
+			id:'myFocus',//ID
+			pattern:'mF_classicHB',//风格
+			time: 3,
+			txtHeight: 30,
+			loadIMGTimeout: 0,
+			duration: 1000
+		});
+	</script>
+</head>
+<body>
+	<table id="tb" cellspacing="0" cellpadding="0">
+		<thead>
+			<tr>
+				<td id="tdHead" colspan="2">
+					<div class="logo">
+						<img src="img/xeyes.png" title="天空没有翅膀的痕迹，但我已飞过">
+						<span>天空没有翅膀的痕迹，但我已飞过</span>
+					</div>
+					<div class="contact">
+						<ul>
+							<li><a href="#">联系我们</a></li>
+							<li><a href="#">加入收藏</a></li>
+							<li><a href="#">设为首页</a></li>
+						</ul>
+					</div>
+				</td>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td width="223px"></td>
+				<td id="tdBody">
+					<div id="myFocus" style="float: none;">
+						<div class="loading"><img src="img/pic_loading.gif" alt="图片加载，请稍候..."> </div>
+						<div class="pic">
+							<ul>
+								<li><a href="#"><img src="img/index_pic1.jpg" alt="" text="第一个网页作品"></a></li>
+								<li><a href="#"><img src="img/index_pic2.jpg" alt="" text="第二个网页作品"></a></li>
+								<li><a href="#"><img src="img/index_pic3.jpg" alt="" text="第三个网页作品"></a></li>
+								<li><a href="#"><img src="img/index_pic4.jpg" alt="" text="第四个网页作品"></a></li>
+								<li><a href="#"><img src="img/index_pic5.jpg" alt="" text="第五个网页作品"></a></li>
+							</ul>
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td id="tdFoot" colspan="2">
+					<div class="copyright">
+						Copyright &copy; 2012-2015 XX工作室.All Rights Reserved.
+					</div>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+</html>

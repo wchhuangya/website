@@ -1,0 +1,93 @@
+@charset "utf-8";
+
+html,body{width: 100%; height: 100%;}
+
+.seperate{height: 75px;}
+.main{width: 1140px; height: 100%; margin: 0 auto; position: relative;}
+h5{font: bold 18px "Microsoft YaHei"!important; letter-spacing: 2px; margin: 20px auto;}
+
+#fPage{position: relative; width: 100%; height: 100%;}
+#fPage .d-table{display: table; width: 100%; height: 100%;}
+#fPage .d-cell{display: table-cell; vertical-align: middle;}
+#fPage .head,#fPage .foot{background-color: #000;}
+#fPage .head{width: 100%; position: absolute; top: 0; height: 30px;}
+#fPage .body{width: 100%; position: absolute; top: 30px; bottom: 20px; height: auto;}
+#fPage div.v-space{height: 55px;}
+#fPage .logo{position: relative; height: 100px;}
+#fPage .header{float: left; height: 100px;}
+#fPage .header img{width: 100px; height: 100px; vertical-align: middle;}
+#fPage .header span{font-weight: bold; margin-left: 15px; font-size: 25px;}
+#fPage .share{float: right; padding: 32px 0;}
+#fPage .share span{float: right; width: 35px; height: 36px; margin-left: 25px; cursor: pointer;}
+#fPage .share span:nth-last-child(1){background: url("../img/sprite.png") -5px -5px;}
+#fPage .share span:nth-last-child(2){background: url("../img/sprite.png") -50px -5px;}
+#fPage .share span:nth-last-child(3){background: url("../img/sprite.png") -95px -5px;}
+#fPage .share span:nth-last-child(4){background: url("../img/sprite.png") -140px -5px;}
+#fPage .share span:nth-last-child(5){background: url("../img/sprite.png") -185px -5px;}
+#fPage .menu{width: 100%; height: 70px; margin-top: 45px; border-style: solid none; border-color: #e6e6e6; border-width: 1px; text-align: center;}
+#fPage .menu div{display: inline-block; position: relative; height: 70px; line-height: 70px; min-width: 150px; text-align: center; -moz-user-select: none;}
+#fPage .menu div{_zoom:1; display: inline;}
+#fPage .menu div:nth-child(1){float: left;}
+#fPage .menu div:nth-child(2){float: left; width: 179px;}
+#fPage .menu div:nth-child(3){float: left; width: 399px; cursor: pointer;}
+#fPage .menu div:nth-child(4){float: right; width: 199px; cursor: pointer;}
+#fPage .menu div:nth-child(5){float: right; width: 189px; cursor: pointer;}
+#fPage span.menus{display: inline-block; vertical-align: middle; margin-right: 20px;}
+#fPage span.menu1{width: 21px; height: 21px; background: url("../img/sprite.png") no-repeat -230px -5px;}
+#fPage span.menu2{width: 25px; height: 21px; background: url("../img/sprite.png") no-repeat -258px -5px;}
+#fPage span.menu3{width: 25px; height: 20px; background: url("../img/sprite.png") no-repeat -288px -5px;}
+#fPage span.menu4{width: 15px; height: 25px; background: url("../img/sprite.png") no-repeat -323px -5px;}
+#fPage span.menu5{width: 27px; height: 23px; background: url("../img/sprite.png") no-repeat -347px -5px;}
+#fPage span.menuw{font: 19px "Microsoft YaHei"!important; color: #999999;}
+#fPage div.personal-intr{letter-spacing: 5px; margin-top: 55px; padding: 10px; line-height: 800%; font: 30px "Microsoft YaHei"!important; color: #999999;}
+/**.personal-intr span{display: block; line-height: 1.3; font: 30px "Microsoft YaHei"!important; color: #9999b2;}*/
+#fPage .foot{width: 100%; position: absolute; bottom: 0; left: 0; height: 20px;}
+
+#sPage{width: 100%; height: 725px; background-color: #000;}
+#sPage .main>div{width: 540px; display: inline-block;}
+#sPage .main>div:nth-child(1){margin-right: 55px;}
+#sPage .left{float: left;}
+#sPage .right{float: right;}
+#sPage .title{color: #fff; font: bold 30px  "Microsoft YaHei"!important; margin-bottom: 20px;}
+#sPage .subtitle{color: #ccc; font: 25px "Microsoft YaHei"!important; padding: 35px 0; border-bottom: 1px solid #3b3b3b; position: relative;}
+#sPage .color1{background-color: #34a09f; width: 85%; height: 4px; position: absolute; left: 0; bottom: -2px;}
+#sPage .color2{background-color: #6083f0; width: 80%; height: 4px; position: absolute; left: 0; bottom: -2px;}
+#sPage .color3{background-color: #bc7488; width: 84%; height: 4px; position: absolute; left: 0; bottom: -2px;}
+#sPage .color4{background-color: #b79c20; width: 65%; height: 4px; position: absolute; left: 0; bottom: -2px;}
+#sPage .color5{background-color: #d58855; width: 40%; height: 4px; position: absolute; left: 0; bottom: -2px;}
+#sPage .color6{background-color: #44b76f; width: 75%; height: 4px; position: absolute; left: 0; bottom: -2px;}
+#sPage .color7{background-color: #8fa065; width: 35%; height: 4px; position: absolute; left: 0; bottom: -2px;}
+#sPage .color8{background-color: #f76040; width: 40%; height: 4px; position: absolute; left: 0; bottom: -2px;}
+#sPage .color9{background-color: #7848c0; width: 72%; height: 4px; position: absolute; left: 0; bottom: -2px;}
+#sPage .color10{background-color: #d8d8d8; width: 78%; height: 4px; position: absolute; left: 0; bottom: -2px;}
+
+#tPage{width: 100%; background: #44b76f;}
+#tPage h3{color: #fff; font: bold 30px  "Microsoft YaHei"!important; padding-bottom: 15px;}
+#tPage .body{height: 1115px;}
+#tPage .block-seperate{margin-top: 55px;}
+#tPage .block{height: 241px; position: relative;}
+#tPage .block-left{width: 149px; height: 146px; float: left; margin-right: 35px; display: inline-block; background: #fff; border-radius: 10px; color: #44b76f; text-align: center; position: relative;}
+#tPage .block-left p{font-size: 15px;}
+#tPage .block-left span{width: 4px; height: 95px; background: #fff; position: absolute; left: 72px; bottom: -95px;}
+#tPage .block-right{width: 950px; height: 146px; display: inline-block; float: right; padding-bottom: 40px; border-bottom: 1px solid #7fd29e;}
+#tPage div.no-border{border: none; height: auto!important;}
+#tPage h2{color: #fff; font: bold 35px  "Microsoft YaHei"!important;}
+#tPage .block-right p{color: #fff; font: 20px/180% "Microsoft YaHei"!important; padding: 30px 0;}
+#tPage div.no-padding{padding: 0!important;}
+#tPage p.no-padding{padding: 30px 0 0!important;}
+
+#foPage{height: 875px;}
+#foPage .main{height: 725px;}
+#foPage .f-left{width: 50%; float: left; position: relative;}
+#foPage .f-right{width: 50%; float: right; position: relative;}
+#foPage h3{color: #000; font: bold 30px  "Microsoft YaHei"!important; margin-bottom: 5px; text-indent: 3px;}
+#foPage .block{min-height: 73px; padding-top: 65px;}
+#foPage .year{width: 95px; height: 73px; font: 25px/73px "Microsoft YaHei"!important; float: left; margin-right: 30px; border-radius: 10px; color: #fff; display: inline-block; text-align: center;}
+#foPage .bg-red{background: #ef5651;}
+#foPage .bg-yellow{background: #efb251;}
+#foPage .right-right{height: 73px; float: left; display: inline-block;}
+#foPage h1{color: #000; font-size: 25px;}
+#foPage .right-right p{color: #999; font-size: 18px; padding-top: 8px;}
+#foPage .b-bottom{width: 1140px; margin: 0 auto; border-bottom: 1px solid #000;}
+
+#copyright{height: 110px; line-height: 110px; text-align: center; color: #000; font-size: 18px;}

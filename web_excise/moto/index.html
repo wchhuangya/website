@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<title>摩托车企业网站</title>
+	<link rel="stylesheet" type="text/css" href="../css/global.css">
+	<link rel="stylesheet" type="text/css" href="../css/moto.css">
+	<link rel="stylesheet" type="text/css" href="../css/jquery-ui.min.css">
+	<script type="text/javascript" src="../js/jquery-1.12.1.min.js"></script>
+	<script type="text/javascript" src="../js/jquery-ui.min.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$( "#dialog" ).dialog({
+		      autoOpen: false,
+		      show: {
+		        effect: "blind",
+		        duration: 1000
+		      },
+		      hide: {
+		        effect: "explode",
+		        duration: 1000
+		      }
+		    });
+		    $( "#openDia" ).click(function() {
+	        	$( "#dialog" ).dialog( "open" );
+	        });
+		});
+	</script>
+</head>
+<body>
+	<div id="headWrap">
+		<div class="head">
+			<ul class="menu">
+				<li><a href="#">注册</a></li>
+				<li><a href="#">关于</a></li>
+				<li><a href="#">服务</a></li>
+				<li><a href="#">登录</a></li>
+				<li><a href="#">联系我们</a></li>
+			</ul>
+			<input id="openDia" type="button" value="打开对话框" style="float: left;" />
+			<div class="search-box">
+				<div class="search-input">
+					<form action="">
+						<input type="text" value="查找" onfocus="if(this.value == '查找')this.value='';" onblur="if (this.value == '') this.value='查找';">
+						<input type="submit" value="">
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="body"></div>
+	<div id="dialog" title="Basic dialog">
+	  <p>This is an animated dialog which is useful for displaying information. The dialog window can be moved, resized and closed with the 'x' icon.</p>
+	</div>
+</body>
+</html>
