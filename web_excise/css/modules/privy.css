@@ -19,11 +19,11 @@ h5{font: bold 18px "Microsoft YaHei"!important; letter-spacing: 2px; margin: 20p
 #fPage .header span{font-weight: bold; margin-left: 15px; font-size: 25px;}
 #fPage .share{float: right; padding: 32px 0;}
 #fPage .share span{float: right; width: 35px; height: 36px; margin-left: 25px; cursor: pointer;}
-#fPage .share span:nth-last-child(1){background: url("../img/sprite.png") -5px -5px;}
-#fPage .share span:nth-last-child(2){background: url("../img/sprite.png") -50px -5px;}
-#fPage .share span:nth-last-child(3){background: url("../img/sprite.png") -95px -5px;}
-#fPage .share span:nth-last-child(4){background: url("../img/sprite.png") -140px -5px;}
-#fPage .share span:nth-last-child(5){background: url("../img/sprite.png") -185px -5px;}
+#fPage .share span:nth-last-child(1){background: url("../../img/sprite.png") -5px -5px;}
+#fPage .share span:nth-last-child(2){background: url("../../img/sprite.png") -50px -5px;}
+#fPage .share span:nth-last-child(3){background: url("../../img/sprite.png") -95px -5px;}
+#fPage .share span:nth-last-child(4){background: url("../../img/sprite.png") -140px -5px;}
+#fPage .share span:nth-last-child(5){background: url("../../img/sprite.png") -185px -5px;}
 #fPage .menu{width: 100%; height: 70px; margin-top: 45px; border-style: solid none; border-color: #e6e6e6; border-width: 1px; text-align: center;}
 #fPage .menu div{display: inline-block; position: relative; height: 70px; line-height: 70px; min-width: 150px; text-align: center; -moz-user-select: none;}
 #fPage .menu div{_zoom:1; display: inline;}
@@ -33,11 +33,11 @@ h5{font: bold 18px "Microsoft YaHei"!important; letter-spacing: 2px; margin: 20p
 #fPage .menu div:nth-child(4){float: right; width: 199px; cursor: pointer;}
 #fPage .menu div:nth-child(5){float: right; width: 189px; cursor: pointer;}
 #fPage span.menus{display: inline-block; vertical-align: middle; margin-right: 20px;}
-#fPage span.menu1{width: 21px; height: 21px; background: url("../img/sprite.png") no-repeat -230px -5px;}
-#fPage span.menu2{width: 25px; height: 21px; background: url("../img/sprite.png") no-repeat -258px -5px;}
-#fPage span.menu3{width: 25px; height: 20px; background: url("../img/sprite.png") no-repeat -288px -5px;}
-#fPage span.menu4{width: 15px; height: 25px; background: url("../img/sprite.png") no-repeat -323px -5px;}
-#fPage span.menu5{width: 27px; height: 23px; background: url("../img/sprite.png") no-repeat -347px -5px;}
+#fPage span.menu1{width: 21px; height: 21px; background: url("../../img/sprite.png") no-repeat -230px -5px;}
+#fPage span.menu2{width: 25px; height: 21px; background: url("../../img/sprite.png") no-repeat -258px -5px;}
+#fPage span.menu3{width: 25px; height: 20px; background: url("../../img/sprite.png") no-repeat -288px -5px;}
+#fPage span.menu4{width: 15px; height: 25px; background: url("../../img/sprite.png") no-repeat -323px -5px;}
+#fPage span.menu5{width: 27px; height: 23px; background: url("../../img/sprite.png") no-repeat -347px -5px;}
 #fPage span.menuw{font: 19px "Microsoft YaHei"!important; color: #999999;}
 #fPage div.personal-intr{letter-spacing: 5px; margin-top: 55px; padding: 10px; line-height: 800%; font: 30px "Microsoft YaHei"!important; color: #999999;}
 /**.personal-intr span{display: block; line-height: 1.3; font: 30px "Microsoft YaHei"!important; color: #9999b2;}*/
