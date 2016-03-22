@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+div.header{height: 94px; background-color: #2e2e2e;}
+div.wrap{width: 90%; height: 94px; margin: 0 auto;}
+div.logo{width: 180px; height: 62px; margin-top: 15px; float: left;}
+div.menu{height: 94px; float: right; min-width: 100px;}
+.menu div{height: 94px; line-height: 94px; text-align: center; padding: 0 25px; float: right; display: inline-block; font-size: 20px; color: white; letter-spacing: 5px;}
+.menu a{text-decoration: none; color: #fff;}
+.menu .current{background: #000; color: #72a717;}
+.current a{color: #72a717;}
+div.clear{clear: both;}
