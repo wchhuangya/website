@@ -1,12 +1,20 @@
 @charset "utf-8";
 
+a{text-decoration: none;}
+li{list-style: none;}
+.no-border{border: none!important;}
+
 div.header{height: 94px; background-color: #2e2e2e;}
 div.wrap{width: 90%; height: 94px; margin: 0 auto;}
 div.logo{width: 180px; height: 62px; margin-top: 15px; float: left;}
-div.menu{height: 94px; float: right; min-width: 100px;}
-.menu div{height: 94px; line-height: 94px; text-align: center; padding: 0 25px; float: right; display: inline-block; font-size: 20px; color: white; letter-spacing: 5px;}
-.menu a{text-decoration: none; color: #fff;}
-.menu .current{background: #000; color: #72a717;}
-.submenu li{list-style: none; color: #fff; background: #000;}
-.current>a{color: #72a717;}
+div.menu{height: 94px; float: right;}
+div.menu>ul{height: 92px; position: relative; border: 1px ridge #1F1F1F; border-left: none; border-right: none;}
+div.menu>ul>li{float: left; border-left: 1px solid #212121;}
+div.menu ul li a{display: inline-block; padding: 0 25px; background: #2e2e2e; height: 92px; line-height: 92px; color: #fff; font-size: 25px; letter-spacing: 5px;}
+div.menu ul li a:hover{color: #72a71c; background: #212121;}
+div.menu ul ul{position: absolute; top: 93px; z-index: 999; display: none;}
+div.menu ul li ul li a{height: 50px; line-height: 50px; font-size: 20px; padding: 0 23px;}
+div.menu ul>li>a:hover+ul{display: block; position: absolute;}
+div.menu ul li ul li:hover{display: block; position: absolute;}
+.current{color: #72a71c!important; background: #212121;}
 div.clear{clear: both;}

@@ -1,16 +1,12 @@
 $(function() {
-	$(".menu div").hover(function (event) {
-		if (!$(this).hasClass("current")) {$(this).addClass("current");}
-		if ($(this).hasClass("submenu")) {$(this).find("ul").show();}
-	}, function (event) {
+	$(".menu>ul>li>a").click(function(event) {
 		var $this = $(this);
-		$this.siblings("div").each(function(i){
-			if ($(this).hasClass("current")) {$this.removeClass("current");}
+		$this.parent("li").siblings().children("a").each(function (event) {
+			if ($(this).hasClass("current")) {
+				$(this).removeClass("current");
+				$this.addClass("current");
+				return;
+			}
 		});
-		if ($(this).hasClass("submenu")) {$(this).find("ul").hide();}
 	});
-	$(".menu div").click(function (event) {
-		$(this).addClass("current").siblings("div").removeClass("current");
-	});
-	$(".submenu ul").hide();
 });
