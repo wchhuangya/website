@@ -3,6 +3,7 @@
 a{text-decoration: none;}
 li{list-style: none;}
 .no-border{border: none!important;}
+.border-bottom{border-bottom: 1px solid #212121;}
 
 div.header{height: 94px; background-color: #2e2e2e;}
 div.wrap{width: 90%; height: 94px; margin: 0 auto;}
@@ -16,5 +17,5 @@ div.menu ul ul{position: absolute; top: 93px; z-index: 999; display: none;}
 div.menu ul li ul li a{height: 50px; line-height: 50px; font-size: 20px; padding: 0 23px;}
 div.menu ul>li>a:hover+ul{display: block; position: absolute;}
 div.menu ul li ul li:hover{display: block; position: absolute;}
-.current{color: #72a71c!important; background: #212121;}
+.current{color: #72a71c!important; background: #212121!important;}
 div.clear{clear: both;}
