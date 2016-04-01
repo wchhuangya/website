@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+#wrap{width: 980px; margin: 0 auto;}
+.head{width: 980px; height: 40px;}
+.top-nav{width: 980px; height: 39px; border-bottom: 1px solid #ececec; position: relative; background: #f9f9f9;}
+.top-nav-left{float: left;}
+.top-nav-left ul{margin-left: 10px; height: 39px;}
+.top-nav-left li{float: left; list-style: none; height: 39px; line-height: 39px; position: relative;}
+.top-nav-left li>a{padding: 0 20px; text-decoration: none; color: #545454; display: inline-block; font-size: 14px; position: relative;}
+.i-home{background: url('../../img/55style/channel-nav-icon.png') no-repeat 0 0; width: 16px; height: 16px; display: block; position: absolute; top: 11px; left: 0;}
+.span-news{position: relative; z-index: 100; position: relative; vertical-align: middle; background: url(../../img/55style/nav-icon.png) no-repeat; height: 39px; line-height: 39px; display: inline-block; background-position: 80% -7px; padding-left: 32px; padding-right: 25px; color: #545454; font-size: 14px;}
+.i-news{background: url('../../img/55style/channel-nav-icon.png') no-repeat 0 -20px; width: 30px; height: 9px; display: block; position: absolute; top: 15px; left: 2px;}
+.news-sub{display: none; width: 380px; height: 150px; background: #fff; position: absolute; left: -1px; top: 40px;  border-bottom: 1px solid #ececec; border-left: 1px solid #ececec; border-right: 1px solid #ececec; padding: 10px 10px 15px 10px;}
+.news-sub>a{text-decoration: none; display: inline-block; width: 36px; height: 36px; margin: 18px; text-align: center; vertical-align: middle; float: left;}
+.news-sub .icon{width: 36px; height: 36px; display: inline-block; cursor: pointer;}
+.cloth{background: url('../../img/55style/nav-pup-icons.png') no-repeat 0 0; width: 36px; height: 36px;}
+.meirong{background: url('../../img/55style/nav-pup-icons.png') no-repeat -40px 0; width: 36px; height: 36px;}
+.wedding{background: url('../../img/55style/nav-pup-icons.png') no-repeat -80px 0; width: 36px; height: 37px;}
+.pregnant{background: url('../../img/55style/nav-pup-icons.png') no-repeat -120px 0; width: 36px; height: 36px;}
+.travel{background: url('../../img/55style/nav-pup-icons.png') no-repeat -160px 0; width: 36px; height: 36px;}
+.food{background: url('../../img/55style/nav-pup-icons.png') no-repeat -40px -40px; width: 36px; height: 36px;}
+.life{background: url('../../img/55style/nav-pup-icons.png') no-repeat -80px -40px; width: 36px; height: 36px;}
+.topic{background: url('../../img/55style/nav-pup-icons.png') no-repeat -120px -40px; width: 36px; height: 36px;}
+.tv{background: url('../../img/55style/nav-pup-icons.png') no-repeat -80px -270px; width: 36px; height: 36px;}
+li.sub:hover>div{display: inline-block;}
+li.sub:hover>span{height: 43px; cursor: pointer;}
+li.sub>div span{color: #666;}
+li.sub>div span:hover{color: #a87642; text-decoration: underline;}
+li.sub>div span:hover+span{color: #a87642; text-decoration: underline;}
+li.sub:hover{background: #fff; color: #a87642; border-left: 1px solid #ececec; border-right: 1px solid #ececec;}
+.top-nav-right{float: right;}
