@@ -22,13 +22,13 @@
 .life{background: url('../../img/55style/nav-pup-icons.png') no-repeat -80px -40px; width: 36px; height: 36px;}
 .topic{background: url('../../img/55style/nav-pup-icons.png') no-repeat -120px -40px; width: 36px; height: 36px;}
 .tv{background: url('../../img/55style/nav-pup-icons.png') no-repeat -80px -270px; width: 36px; height: 36px;}
-li.sub:hover>div{display: inline-block;}
-li.sub:hover>span{height: 43px; cursor: pointer;}
-li.sub:hover .span-sub{ background: url('../../img/55style/nav-icon.png') no-repeat; background-position: 80% -63px; color: #8a7642;}
-li.sub>div span{color: #666; display: inline-block;}
-li.sub>div span:hover{color: #a87642; text-decoration: underline;}
-li.sub>div span:hover+span{color: #a87642; text-decoration: underline;}
-li.sub:hover{background: #fff; color: #a87642; border-left: 1px solid #ececec; border-right: 1px solid #ececec;}
+.sub:hover>div{display: inline-block;}
+.sub:hover>span{height: 43px; cursor: pointer;}
+.sub:hover .span-sub{ background: url('../../img/55style/nav-icon.png') no-repeat; background-position: 80% -63px; color: #8a7642;}
+.sub>div span{color: #666; display: inline-block;}
+.sub>div span:hover{color: #a87642; text-decoration: underline;}
+.sub>div span:hover+span{color: #a87642; text-decoration: underline;}
+.sub:hover{background: #fff; color: #a87642; border-left: 1px solid #ececec; border-right: 1px solid #ececec;}
 .i-forum{background: url('../../img/55style/channel-nav-icon.png') no-repeat 0 -30px; width: 16px; height: 14px; display: block; position: absolute; top: 15px; left: 10px;}
 .l-padding{padding-left: 30px!important;}
 .i-5tao{background: url('../../img/55style/channel-nav-icon.png') no-repeat 0 -45px; width: 16px; height: 14px; display: block; position: absolute; top: 13px; left: 10px;}
@@ -53,5 +53,11 @@ li.sub:hover{background: #fff; color: #a87642; border-left: 1px solid #ececec; b
 .top-nav-right{float: right; height: 40px; line-height: 40px;}
 .top-nav-right div{display: inline-block;}
 .top-nav-right a{color: #b76f3b;}
+.login{float: left; padding-top: 12px;}
 .login label:hover{text-decoration: underline; color: #b76f3b; cursor: pointer;}
-.third-login{}
+.third-login{float: left; padding-top: 5px; padding-right: 5px;}
+.i-qq{background: url('../../img/55style/nav-pup-icons.png') no-repeat 0 -120px; width: 28px; height: 28px; display: inline-block; margin-left: 5px;}
+.i-weibo{background: url('../../img/55style/nav-pup-icons.png') no-repeat -30px -120px; width: 28px; height: 28px; display: inline-block; margin-left: 5px;}
+.top-nav-right li{list-style-type: none;}
+.top-nav-right .span-sub{background-position: 85% -7px!important;}
+.i-list{background: url('../../img/55style/nav-icon.png') no-repeat 0 -130px; width: 16px; height: 14px; display: block; position: absolute; top: 13px; left: 10px;}
