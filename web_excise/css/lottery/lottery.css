@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+/** 整体 */
+.wrap{width: 100%; position: relative;}
+.wrap > div{width: 1000px; margin: 0 auto;}
+i{display: inline-block;}
+li{display: list-item; list-style-type: none;}
+a{text-decoration: none; color: #333;}
+
+/** 头部 */
+.head{height: 80px;}
+.logo{float: left; width: 240px; height: 80px; background: url('../../img/lottery/logo_888.png') no-repeat;}
+.toolbar{float: right;}
+.toolbar li{float: left;}
+.li-item{line-height: 30px; margin: 0 10px; position: relative;}
+.cutline{width: 1px; height: 20px; margin: 5px 0; background: #e5e5e5;}
+.login_text{color: #d21e1e;}
+.login_text:hover{border-bottom: 1px solid #d21e1e;}
+.i-mbl{background: url('../../img/lottery/icon.png') no-repeat -52px 0; width: 10px; height: 14px; vertical-align: -2px; margin-right: 6px;}
+
+/** 菜单 */
+.menu{width: 100%!important; height: 42px; background: #d21e1e;}
+.menu-body{width: 1000px; height: 42px; margin: 0 auto;}
+.menu-body li{float: left; line-height: 40px; padding: 0 20px; border: none;}
+.menu-body li:hover{background: #931515;}
+.menu-body a{color: #fff; font-size: 16px; letter-spacing: 1px;}
+.menu-body .current{background: #931515!important;}
+
+/** 主体 */
+.body{}
+
+/** 底部 */
+.foot{}
+
+/** 侧边栏 */
+.sidebar{position: fixed; top: 180px; right: 0;}
+.sidebar li{background: #e5e5e5; padding: 15px 10px 10px; margin-bottom: 1px; line-height: 31px; position: relative;}
+.sidebar li:hover > a{color: #d21e1e; border-bottom: 1px solid #f00;}
+.sidebar a{margin-left: 36px;}
+.hide-right{position: relative; right: -60px;}
+.hide-right:hover .i-custom-online{background: url('../../img/lottery/icon.png') no-repeat -26px -57px;}
+.hide-right:hover .i-new-ins{background: url('../../img/lottery/icon.png') no-repeat -78px -57px;}
+.hide-right:hover .i-feedback-online{background: url('../../img/lottery/icon.png') no-repeat -130px -57px;}
+.i-custom-online{background: url('../../img/lottery/icon.png') no-repeat 0 -57px; width: 26px; height: 31px; position: absolute; left: 10px; top: 12px;}
+.i-new-ins{background: url('../../img/lottery/icon.png') no-repeat -52px -57px; width: 26px; height: 31px; position: absolute; left: 10px; top: 12px;}
+.i-feedback-online{background: url('../../img/lottery/icon.png') no-repeat -104px -57px; width: 26px; height: 31px; position: absolute; left: 10px; top: 12px;}
+.i-pa{background: url('../../img/lottery/pa.png') no-repeat; width: 26px; height: 31px; position: absolute; left: 10px; top: 15px;}
+.i-ya{background: url('../../img/lottery/ya.png') no-repeat; width: 26px; height: 31px; position: absolute; left: 10px; top: 15px;}
